@@ -1,0 +1,74 @@
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;    /*tellmenews*/
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+ }
+
+ .container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    margin: 24px auto;
+ }
+
+ .bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .icons{
+    margin-top: 14px;
+ }
+
+ .icons i{
+
+ }
+
+ #MyProgressBar{
+    width: 80vw;
+ }
